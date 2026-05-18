@@ -14,7 +14,7 @@
 <link rel="icon" href="/images/favicon.ico" />
 <meta name="theme-color" content="#ffffff" />
 
-<style>
+<!-- <style>
     /* Import Mulish (formerly Muli) from Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
@@ -47,25 +47,58 @@
     .author__avatar img:hover {
         transform: scale(1.02);
     }
-</style>
+</style> -->
 
-<!-- <style>
-    /* Make profile picture rectangular and "prettier" */
+
+<style>
+    /* 1. Import Mulish from Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+    /* 2. Make the Sidebar (Left Side) Larger on Desktop */
+    @media (min-width: 64em) {
+        .sidebar {
+            width: 280px !important;
+            /* Increases width from the default ~200px */
+        }
+    }
+
+    /* 3. Make Profile Pic fill the wider sidebar */
     .author__avatar img {
+        width: 100% !important;
+        max-width: 250px !important;
+        /* Cap the size so it doesn't get blurry */
         border-radius: 4px !important;
-        /* Rectangular with a tiny bit of rounding for a modern look */
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        /* Adds subtle depth */
         border: 1px solid rgba(0, 0, 0, 0.05);
-        /* Defines the edge against the white background */
         transition: transform 0.2s ease;
-        /* Smooth hover effect */
+    }
+
+    /* 4. Adjust Global Font (Smaller Body Text) */
+    body {
+        font-family: "Mulish", sans-serif !important;
+        font-size: 0.92em !important;
+        /* Reduces default size (usually 1em) for a cleaner look */
+        line-height: 1.6 !important;
+        /* Adds breathing room between lines */
+        color: #333 !important;
+    }
+
+    /* 5. Keep Headers sharp and consistent */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .site-title,
+    .archive__item-title {
+        font-family: "Mulish", sans-serif !important;
+        color: #222 !important;
     }
 
     .author__avatar img:hover {
         transform: scale(1.02);
-        /* Very slight pop when someone hovers */
     }
-</style> -->
+</style>
 
 <!-- end custom head snippets -->
