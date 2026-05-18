@@ -2,7 +2,7 @@
 title: "Endogenous Inattention and Risk-Specific Price Underreaction in Corporate Bonds"
 collection: publications
 category: "published"
-permalink: /publication/2022-endogenous-inattention
+permalink: /publication/jfe-2022-endogenous-inattention
 date: 2022-01-01
 authors: ""
 venue: "Journal of Financial Economics"

@@ -2,7 +2,7 @@
 title: "Why Do Portfolio Choice Models Predict Inelastic Demand?"
 collection: publications
 category: "published"
-permalink: /publication/2025-dkl
+permalink: /publication/2025-jfe-dkl
 date: 2025-01-01
 priority: 50
 authors: "Carter Davis and Mahyar Kargar"

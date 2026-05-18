@@ -2,7 +2,7 @@
 title: "What Drives the Size and Value Factors?"
 collection: publications
 category: "published"
-permalink: /publication/2022-size-value
+permalink: /publication/2022-raps-size-value
 date: 2022-01-01
 authors: ""
 venue: "Review of Asset Pricing Studies"
