@@ -11,5 +11,5 @@ I am an Assistant Professor of Finance at the David Eccles School of Business, U
 
 I work on understanding the impact of investor demand and behavior on asset prices.
 
-### [Research](/publications/) | [CV](/files/JiacuiLi_CV.pdf) | [Google Scholar](https://scholar.google.com/citations?user=3gTnudIAAAAJ&hl=en&oi=ao) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2536212)
+### [Research](/publications/) | [CV](/files/cv/jiacuiLi_CV.pdf) | [Google Scholar](https://scholar.google.com/citations?user=3gTnudIAAAAJ&hl=en&oi=ao) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2536212)
 
