@@ -10,7 +10,10 @@ author_profile: true
 {% for post in working %}
 <div style="margin-bottom: 30px;">
   <p style="margin: 0;">
-    <a href="{{ post.paperurl }}" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a> with {{ post.authors }}
+    <a href="{{ post.paperurl }}" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a> with {{ post.authors }}
   </p>
   <p style="margin: 5px 0; font-style: italic;">{{ post.status }}</p>
   <p style="margin: 5px 0;">
