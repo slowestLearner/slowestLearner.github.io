@@ -3,15 +3,34 @@
 <!-- start custom head snippets -->
 
 <!-- Support for Academicons -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css" />
 
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png" />
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg" />
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192" />
+<link rel="manifest" href="{{ base_path }}/images/manifest.json" />
+<link rel="icon" href="/images/favicon.ico" />
+<meta name="theme-color" content="#ffffff" />
+
+<style>
+    /* Make profile picture rectangular and "prettier" */
+    .author__avatar img {
+        border-radius: 4px !important;
+        /* Rectangular with a tiny bit of rounding for a modern look */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        /* Adds subtle depth */
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        /* Defines the edge against the white background */
+        transition: transform 0.2s ease;
+        /* Smooth hover effect */
+    }
+
+    .author__avatar img:hover {
+        transform: scale(1.02);
+        /* Very slight pop when someone hovers */
+    }
+</style>
 
 <!-- end custom head snippets -->
