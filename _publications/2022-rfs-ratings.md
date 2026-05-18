@@ -2,7 +2,7 @@
 title: "What Do Mutual Fund Investors Really Care About?"
 collection: publications
 category: "published"
-permalink: /publication/2022-mutual-funds
+permalink: /publication/2022-rfs-ratings
 date: 2022-01-01
 authors: "Itzhak Ben-David, Andrea Rossi, and Yang Song"
 venue: "Review of Financial Studies"

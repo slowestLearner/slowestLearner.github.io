@@ -2,7 +2,7 @@
 title: "Ratings-Driven Demand and Systematic Price Fluctuations"
 collection: publications
 category: "published"
-permalink: /publication/2022-ratings-demand
+permalink: /publication/2022-rfs-ratings-demand
 date: 2022-01-01
 authors: "Itzhak Ben-David, Andrea Rossi, and Yang Song"
 venue: "Review of Financial Studies"

@@ -3,7 +3,7 @@ title: "Price Multipliers are Larger for Less Diversifiable Order Flows"
 date: 2026-12-31
 collection: publications
 category: "working"  # Use "working" or "published"
-permalink: /publication/price-multipliers
+permalink: /publication/working-price-multipliers
 authors: "Zihan Lin"
 status: "3rd round R&R @ Journal of Finance"
 takeaway: "traditional notions of diversifiability are relevant for the cross-section of demand effects. Specifically, we show that the 'price multiplier' -- the elasticity of prices to shares demanded -- forms a gradient that increases with the degree of systematic risk."
