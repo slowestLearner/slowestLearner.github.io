@@ -230,7 +230,7 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /:collection/:path/
+    permalink: /talks/:path/
 
 
 # These settings control how pages and collections are included in the site
