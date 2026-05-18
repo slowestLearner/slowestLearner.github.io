@@ -14,7 +14,7 @@ author_profile: true
   </p>
   <p style="margin: 5px 0; font-style: italic;">{{ post.status }}</p>
   <p style="margin: 5px 0;">
-    <strong>Takeaway:</strong> <span style="color: #2c3e50;">{{ post.takeaway }}</span>
+    <strong>Takeaway:</strong> <span style="color: #2c3e50; font-size: 0.9em; font-style: italic;">{{ post.takeaway }}</span>
   </p>
   <p style="margin: 5px 0; font-size: 0.9em;">
     <strong>Presentations:</strong> {{ post.presentations }}
