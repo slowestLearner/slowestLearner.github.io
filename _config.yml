@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "j_pic_llama.jpg" # "j_pic_eccles.jpeg"
   name             : "Jiacui Li (李家粹)"
-  cv               : "https://www.jiacui-li.com/files/cv/JiacuiLi_CV.pdf" 
+  # cv               : "https://www.jiacui-li.com/files/cv/JiacuiLi_CV.pdf" 
   employer         : "David Eccles, U of Utah"
   uri              : # URL
   email            : "jiacui.li@eccles.utah.edu" 
@@ -33,12 +33,12 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=3gTnudIAAAAJ&hl=en&oi=ao"
+  # googlescholar    : "https://scholar.google.com/citations?user=3gTnudIAAAAJ&hl=en&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
   # orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
-  ssrn             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2536212"
+  # ssrn             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2536212"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
