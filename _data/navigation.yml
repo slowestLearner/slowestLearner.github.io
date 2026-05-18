@@ -9,8 +9,8 @@
 
 main:
   - title: "Research"
-    url: /research/
+    url: /publications/
   - title: "Recent Discussions"
-    url: /discussions/
+    url: /recent-discussions/
   - title: "CV (PDF)"
     url: /files/JiacuiLi_CV.pdf
