@@ -14,43 +14,9 @@
 <link rel="icon" href="/images/favicon.ico" />
 <meta name="theme-color" content="#ffffff" />
 
+
+
 <!-- <style>
-    /* Import Mulish (formerly Muli) from Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-    /* Apply the font to the entire site */
-    body {
-        font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-    }
-
-    /* Ensure headers also use the new font */
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    .site-title,
-    .site-subtitle,
-    .archive__item-title {
-        font-family: "Mulish", sans-serif !important;
-    }
-
-    /* Your existing profile picture styling */
-    .author__avatar img {
-        border-radius: 4px !important;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        border: 1px solid rgba(0, 0, 0, 0.05);
-        transition: transform 0.2s ease;
-    }
-
-    .author__avatar img:hover {
-        transform: scale(1.02);
-    }
-</style> -->
-
-
-<style>
     /* 1. Import Mulish from Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
@@ -84,6 +50,55 @@
     }
 
     /* 5. Keep Headers sharp and consistent */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .site-title,
+    .archive__item-title {
+        font-family: "Mulish", sans-serif !important;
+        color: #222 !important;
+    }
+
+    .author__avatar img:hover {
+        transform: scale(1.02);
+    }
+</style> -->
+
+<style>
+    /* 1. Global Font: Smaller body text */
+    body {
+        font-family: "Mulish", sans-serif !important;
+        font-size: 0.92em !important;
+        line-height: 1.6 !important;
+        color: #333 !important;
+    }
+
+    /* 2. Wider Sidebar and More Gutter Space (Desktop Only) */
+    @media (min-width: 64em) {
+        .sidebar {
+            width: 280px !important;
+        }
+
+        /* Increased padding to 80px for more horizontal space */
+        .page {
+            padding-left: 80px !important;
+        }
+    }
+
+    /* 3. Larger, Rectangular Profile Pic */
+    .author__avatar img {
+        width: 100% !important;
+        max-width: 250px !important;
+        border-radius: 4px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+    }
+
+    /* 4. Consistent Headers */
     h1,
     h2,
     h3,
