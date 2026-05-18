@@ -1,5 +1,6 @@
 ---
 title: "Price Multipliers are Larger for Less Diversifiable Order Flows"
+date: 2026-12-31
 collection: publications
 category: "working"  # Use "working" or "published"
 permalink: /publication/price-multipliers
