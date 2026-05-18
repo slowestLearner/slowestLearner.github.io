@@ -16,58 +16,8 @@
 
 
 
+
 <!-- <style>
-    /* 1. Import Mulish from Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-    /* 2. Make the Sidebar (Left Side) Larger on Desktop */
-    @media (min-width: 64em) {
-        .sidebar {
-            width: 280px !important;
-            /* Increases width from the default ~200px */
-        }
-    }
-
-    /* 3. Make Profile Pic fill the wider sidebar */
-    .author__avatar img {
-        width: 100% !important;
-        max-width: 250px !important;
-        /* Cap the size so it doesn't get blurry */
-        border-radius: 4px !important;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        border: 1px solid rgba(0, 0, 0, 0.05);
-        transition: transform 0.2s ease;
-    }
-
-    /* 4. Adjust Global Font (Smaller Body Text) */
-    body {
-        font-family: "Mulish", sans-serif !important;
-        font-size: 0.92em !important;
-        /* Reduces default size (usually 1em) for a cleaner look */
-        line-height: 1.6 !important;
-        /* Adds breathing room between lines */
-        color: #333 !important;
-    }
-
-    /* 5. Keep Headers sharp and consistent */
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    .site-title,
-    .archive__item-title {
-        font-family: "Mulish", sans-serif !important;
-        color: #222 !important;
-    }
-
-    .author__avatar img:hover {
-        transform: scale(1.02);
-    }
-</style> -->
-
-<style>
     /* 1. Global Font: Smaller body text */
     body {
         font-family: "Mulish", sans-serif !important;
@@ -109,6 +59,56 @@
     .archive__item-title {
         font-family: "Mulish", sans-serif !important;
         color: #222 !important;
+    }
+
+    .author__avatar img:hover {
+        transform: scale(1.02);
+    }
+</style> -->
+
+<style>
+    /* 1. Global Font: Switching to a high-quality Serif stack (Times New Roman style) */
+    body {
+        font-family: "Times New Roman", Times, Baskerville, Georgia, serif !important;
+        font-size: 0.95em !important;
+        line-height: 1.6 !important;
+        color: #1a1a1a !important;
+        /* Slightly darker for better serif crispness */
+    }
+
+    /* 2. Wider Sidebar and More Gutter Space (Desktop Only) */
+    @media (min-width: 64em) {
+        .sidebar {
+            width: 280px !important;
+        }
+
+        .page {
+            padding-left: 80px !important;
+        }
+    }
+
+    /* 3. Larger, Rectangular Profile Pic */
+    .author__avatar img {
+        width: 100% !important;
+        max-width: 250px !important;
+        border-radius: 4px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+    }
+
+    /* 4. Headers: Also using the classic Serif for consistency */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .site-title,
+    .archive__item-title {
+        font-family: "Times New Roman", Times, serif !important;
+        font-weight: bold !important;
+        color: #000 !important;
     }
 
     .author__avatar img:hover {
