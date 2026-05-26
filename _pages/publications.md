@@ -20,6 +20,12 @@ author_profile: true
   <p style="margin: 5px 0;">
     <strong>Takeaway:</strong> <span style="color: #2c3e50; font-size: 0.9em; font-style: italic;">{{ post.takeaway }}</span>
   </p>
+  
+  {% if post.media_mentions %}
+  <p style="margin: 5px 0; font-size: 0.95em;">
+    <strong>Media Coverage:</strong> <span>{{ post.media_mentions | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+  </p>
+  {% endif %}
 </div>
 {% endfor %}
 
@@ -43,6 +49,11 @@ author_profile: true
   <p style="margin: 5px 0;">
     <strong>Takeaway:</strong> <span style="color: #2c3e50; font-size: 0.9em; font-style: italic;">{{ post.takeaway }}</span>
   </p>
+
+  {% if post.media_mentions %}
+  <p style="margin: 5px 0; font-size: 0.95em;">
+    <strong>Media Coverage:</strong> <span>{{ post.media_mentions | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+  </p>
+  {% endif %}
 </div>
 {% endfor %}
-
