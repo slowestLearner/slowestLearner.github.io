@@ -17,6 +17,12 @@ author_profile: true
     <p style="margin: 5px 0; font-style: italic;">{{ post.status }}</p>
   {% endif %}
 
+  {% if post.notes %}
+  <div style="margin: 5px 0 10px 0; font-size: 0.95em; color: #333;">
+    {{ post.notes | markdownify | replace: '<a href=', '<a target="_blank" rel="noopener noreferrer" href=' }}
+  </div>
+  {% endif %}
+
   <p style="margin: 5px 0;">
     <strong>Takeaway:</strong> <span style="color: #2c3e50; font-size: 0.9em; font-style: italic;">{{ post.takeaway }}</span>
   </p>
@@ -47,6 +53,12 @@ author_profile: true
   <p style="margin: 5px 0; font-size: 0.9em;">
     <a href="{{ post.publisher_url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Publisher Link</a>
   </p>
+  {% endif %}
+
+  {% if post.notes %}
+  <div style="margin: 5px 0 10px 0; font-size: 0.95em; color: #333;">
+    {{ post.notes | markdownify | replace: '<a href=', '<a target="_blank" rel="noopener noreferrer" href=' }}
+  </div>
   {% endif %}
 
   <p style="margin: 5px 0;">
