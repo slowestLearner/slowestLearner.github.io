@@ -22,10 +22,13 @@ author_profile: true
   </p>
   
   {% if post.media_mentions %}
-  <p style="margin: 5px 0; font-size: 0.95em;">
-    <strong>Media Coverage:</strong> <span>{{ post.media_mentions | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-  </p>
-  {% endif %}
+<p style="margin: 5px 0; font-size: 0.95em;">
+  <strong>Media Coverage:</strong> 
+  <span>
+    {{ post.media_mentions | markdownify | replace: '<a href=', '<a target="_blank" rel="noopener noreferrer" href=' | remove: '<p>' | remove: '</p>' }}
+  </span>
+</p>
+{% endif %}
 </div>
 {% endfor %}
 
@@ -51,9 +54,12 @@ author_profile: true
   </p>
 
   {% if post.media_mentions %}
-  <p style="margin: 5px 0; font-size: 0.95em;">
-    <strong>Media Coverage:</strong> <span>{{ post.media_mentions | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-  </p>
-  {% endif %}
+<p style="margin: 5px 0; font-size: 0.95em;">
+  <strong>Media Coverage:</strong> 
+  <span>
+    {{ post.media_mentions | markdownify | replace: '<a href=', '<a target="_blank" rel="noopener noreferrer" href=' | remove: '<p>' | remove: '</p>' }}
+  </span>
+</p>
+{% endif %}
 </div>
 {% endfor %}
