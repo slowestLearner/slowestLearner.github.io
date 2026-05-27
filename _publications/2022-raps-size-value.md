@@ -4,7 +4,7 @@ collection: publications
 category: "published"
 permalink: /publication/2022-raps-size-value
 date: 2022-01-01
-authors: ""
+# authors: ""
 venue: "Review of Asset Pricing Studies"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2909960"
 publisher_url: "https://academic.oup.com/raps/advance-article/doi/10.1093/rapstu/raac016/6747214"
