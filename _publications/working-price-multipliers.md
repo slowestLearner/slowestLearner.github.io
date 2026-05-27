@@ -7,6 +7,7 @@ permalink: /publication/working-price-multipliers
 authors: "Zihan Lin"
 status: "3rd round R&R @ Journal of Finance"
 takeaway: "traditional notions of diversifiability are relevant for the cross-section of demand effects. Specifically, we show that the 'price multiplier' -- the elasticity of prices to shares demanded -- forms a gradient that increases with the degree of systematic risk."
-presentations: "Asian FA, Arizona, USC, BYU Marriott, Penn State, FMA, Mid Atlantic Research Conference in Finance, Stanford SITE, MFA, Campbell, U Connecticut, UIUC Gies, USC Marshall, Utah Eccles, UVA Darden, Georgetown, George Mason, Cornell, Rome University, Chicago Booth Asset Pricing Conference, Purdue, Florida"
+notes: | 
+    Presentations: Asian FA, Arizona, USC, BYU Marriott, Penn State, FMA, Mid Atlantic Research Conference in Finance, Stanford GSB, Stanford SITE, MFA, Campbell, U Connecticut, UIUC Gies, Utah Eccles, UVA Darden, Georgetown McDonough, George Mason, Cornell Johnson, University of Rome, Chicago Booth Asset Pricing Conference, AFA
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4038664"
 ---
