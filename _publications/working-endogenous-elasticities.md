@@ -9,7 +9,7 @@ status: "R&R @ Review of Financial Studies"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5325371"
 takeaway: >
   the marginal stock price impact declines with the magnitude of demand, consistent with the idea that arbitrage forces are stronger for larger price dislocations.
-notes: >
+notes: |
   * Mid-Atlantic Research Conference in Finance Outstanding Paper Award
   * Consistent replication in other markets: [401(k) shocks](/files/papers/aditya/Discussion_SongX.pdf)
 ---
