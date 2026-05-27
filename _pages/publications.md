@@ -13,10 +13,7 @@ author_profile: true
     <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a>
     {% if post.authors and post.authors != "" %} with {{ post.authors }}{% endif %}
   </p>
-  <!-- <p style="margin: 0;">
-    <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a> with {{ post.authors }}
-  </p> -->
-
+  
   {% if post.status and post.status != "Working Paper" %}
     <p style="margin: 5px 0; font-style: italic;">{{ post.status }}</p>
   {% endif %}
@@ -52,9 +49,6 @@ author_profile: true
   <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a>
   {% if post.authors and post.authors != "" %} with {{ post.authors }}{% endif %}
 </p>
-  <!-- <p style="margin: 0;">
-    <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a> with {{ post.authors }}
-  </p> -->
   <p style="margin: 5px 0;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
   
 
