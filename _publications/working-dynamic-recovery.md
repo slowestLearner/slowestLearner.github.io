@@ -10,5 +10,5 @@ paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6497439"
 takeaway: >
   provides a methodology to empirically uncover investor demand functions in dynamic environments.
 notes: | 
-  Presentations: Duke asset pricing, CMU, NBER LATM, WFA (scheduled), SFS Cavalacde (scheduled), UCLA (scheduled)
+  Presentations: Duke asset pricing, CMU, NBER LATM, WFA, SFS Cavalacde, UCLA
 ---
