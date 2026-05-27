@@ -13,4 +13,5 @@ notes: |
   * Mid-Atlantic Research Conference in Finance Outstanding Paper Award
   * Consistent replication in other markets: [401(k)-based shocks](/files/papers/aditya/Discussion_SongX.pdf) and [corporate bonds](/files/papers/aditya/discussion_Taisiya.pdf)
   * Presentations: UVA McIntire, Demand in asset markets working group, OSU, Mid-Atlantic Research Conference in Finance, NFA, HKU, Hong Kong Polytech, Stanford SITE, UNC Junior Conference, NYU Stern Workshop for Assistant Professors, NBER asset pricing, Princeton, MFA
+  * Coverage in [The Grumpy Economist](https://www.grumpy-economist.com/p/nber-asset-pricing-lessons)
 ---
