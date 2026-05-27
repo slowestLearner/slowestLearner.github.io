@@ -9,5 +9,6 @@ status: "Working Paper"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6497439"
 takeaway: >
   provides a methodology to empirically uncover investor demand functions in dynamic environments.
-presentations: "WFA, SFS Cavalcade, Duke asset pricing, NBER LATM"
+notes: | 
+  Presentations: Duke asset pricing, CMU, NBER LATM, WFA (scheduled), SFS Cavalacde (scheduled), UCLA (scheduled)
 ---

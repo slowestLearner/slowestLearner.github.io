@@ -9,6 +9,6 @@ status: "Working Paper"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6025014"
 takeaway: >
   A general-equilibrium model of the aggregate market elasticity with heterogeneous investors, passive investors, and financial constraints.
-presentations: >
-  UIUC, UCLA, Wabash Finance Conference, St Louis Fed, European Summer Symposium in Financial Markets, University of Zurich, AFA, NBER Summer Institute
+notes: |
+  Presentations: UIUC, UCLA, Wabash Finance Conference, St Louis Fed, European Summer Symposium in Financial Markets, University of Zurich, AFA, NBER summer institute
 ---
