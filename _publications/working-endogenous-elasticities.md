@@ -5,7 +5,7 @@ category: "working"
 permalink: /publication/working-endogenous-elasticities
 date: 2026-12-30
 authors: "Aditya Chaudhry"
-status: "R&R @ Review of Financial Studies"
+status: "2nd round R&R @ Review of Financial Studies"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5325371"
 takeaway: >
   the marginal stock price impact declines with the magnitude of demand, consistent with the idea that arbitrage forces are stronger for larger price dislocations.
