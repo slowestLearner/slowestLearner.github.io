@@ -1,7 +1,7 @@
 ---
 title: "Performance-Based Attrition and Decreasing Returns to Scale"
 collection: publications
-category: "working"
+category: "hidden"
 permalink: /publication/working-drs-metrics
 date: 2026-11-30
 authors: "Min Zhu"
