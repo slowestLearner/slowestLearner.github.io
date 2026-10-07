@@ -24,9 +24,11 @@ author_profile: true
   </div>
   {% endif %}
 
+  {% if post.takeaway and post.takeaway != "" %}
   <p style="margin: 5px 0;">
     <strong>Takeaway:</strong> <span style="color: #2c3e50; font-size: 0.9em; font-style: italic;">{{ post.takeaway }}</span>
   </p>
+  {% endif %}
   
   {% if post.media_mentions %}
 <p style="margin: 5px 0; font-size: 0.95em;">
@@ -65,9 +67,11 @@ author_profile: true
   </div>
   {% endif %}
 
+  {% if post.takeaway and post.takeaway != "" %}
   <p style="margin: 5px 0;">
     <strong>Takeaway:</strong> <span style="color: #2c3e50; font-size: 0.9em; font-style: italic;">{{ post.takeaway }}</span>
   </p>
+  {% endif %}
 
   {% if post.media_mentions %}
 <p style="margin: 5px 0; font-size: 0.95em;">
