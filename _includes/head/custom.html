@@ -76,14 +76,20 @@
         /* Slightly darker for better serif crispness */
     }
 
-    /* 2. Wider Sidebar and More Gutter Space (Desktop Only) */
+    /* 2. Wider Sidebar and Main Content Area (Desktop Only) */
     @media (min-width: 64em) {
+        #main {
+            max-width: 1400px !important;
+        }
+
         .sidebar {
             width: 320px !important;
         }
 
         .page {
-            padding-left: 80px !important;
+            width: calc(100% - 320px) !important;
+            padding-left: 50px !important;
+            padding-right: 1em !important;
         }
     }
 

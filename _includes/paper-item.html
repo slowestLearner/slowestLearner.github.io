@@ -5,8 +5,10 @@
     {% else %}
       <span style="font-weight: bold; font-size: 1.1em;">{{ post.title }}</span>
     {% endif %}
-    {% if post.authors and post.authors != "" %} with {{ post.authors }}{% endif %}
   </p>
+  {% if post.authors and post.authors != "" %}
+  <p style="margin: 4px 0 0 0;">with {{ post.authors }}</p>
+  {% endif %}
 
   {% if post.category == "published" %}
     <p style="margin: 5px 0;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
