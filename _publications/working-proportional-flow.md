@@ -7,7 +7,7 @@ permalink: /publication/working-proportional-flow
 date: 2026-12-29
 authors: "Carter Davis and Mahyar Kargar"
 status: "Working Paper"
-# paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5070808"
+paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7721058"
 takeaway: >
   Mean-variance models fail to describe how institutional trade sizes and flow-induced price impact scale across stocks. We propose a simple fix to generate realistic patterns. 
 # notes: |
