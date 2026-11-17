@@ -10,5 +10,5 @@ paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5070808"
 takeaway: >
   the cross-stock momentum lead-lag effects, such as that in Cohen and Frazzini (2008), are not all due to investor underreaction.
 notes: |
-  Presenetations: Monash, University of Queensland, NJIT, NYU Shanghai, Fudan, ANU, Purdue, U Washington, UCSD, NUS, Singapore Management University, SHUFE, ShanghaiTech
+  Presentations: Monash, University of Queensland, NJIT, NYU Shanghai, Fudan, ANU, Purdue, U Washington, UCSD, NUS, Singapore Management University, SHUFE, ShanghaiTech
 ---
