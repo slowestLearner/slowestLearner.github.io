@@ -10,7 +10,11 @@ author_profile: true
 {% for post in working %}
 <div style="margin-bottom: 30px;">
   <p style="margin: 0;">
-    <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a>
+    {% if post.paperurl and post.paperurl != "" %}
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a>
+    {% else %}
+      <span style="font-weight: bold; font-size: 1.1em;">{{ post.title }}</span>
+    {% endif %}
     {% if post.authors and post.authors != "" %} with {{ post.authors }}{% endif %}
   </p>
   
@@ -48,7 +52,11 @@ author_profile: true
 {% for post in published %}
 <div style="margin-bottom: 30px;">
 <p style="margin: 0;">
-  <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a>
+  {% if post.paperurl and post.paperurl != "" %}
+    <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; font-size: 1.1em;">{{ post.title }}</a>
+  {% else %}
+    <span style="font-weight: bold; font-size: 1.1em;">{{ post.title }}</span>
+  {% endif %}
   {% if post.authors and post.authors != "" %} with {{ post.authors }}{% endif %}
 </p>
   <p style="margin: 5px 0;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
