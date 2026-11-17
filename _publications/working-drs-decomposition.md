@@ -9,4 +9,6 @@ status: "Working Paper"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573400"
 takeaway: >
   the decreasing return to scale effect is non-negligible, but not large enough to explain the lack of performance persistence in mutual funds.
+notes: |
+  Presentations: Utah, Utah State, UC Boulder, BYU, Deakin, RMIT, UNSW
 ---
