@@ -13,5 +13,13 @@ I work on understanding the impact of investor demand and behavior on asset pric
 
 ### <a href="/files/cv/jiacuiLi_CV.pdf" target="_blank">CV</a> | <a href="mailto:jiacui.li@eccles.utah.edu">jiacui.li@eccles.utah.edu</a>
 
-### [Research](/publications/) | <a href="https://scholar.google.com/citations?user=3gTnudIAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> | <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2536212" target="_blank">SSRN</a>
+### [Published Papers](/publications/) | <a href="https://scholar.google.com/citations?user=3gTnudIAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> | <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2536212" target="_blank">SSRN</a>
+
+---
+
+## WORKING PAPERS
+{% assign working = site.publications | where: "category", "working" | sort: "date" | reverse %}
+{% for post in working %}
+  {% include paper-item.html %}
+{% endfor %}
 
