@@ -4,7 +4,7 @@ collection: publications
 category: "working"
 permalink: /publication/working-dual-class
 date: 2026-12-29
-authors: "Jiawei Yu and Baoliang Wang"
+authors: "Jiawei Yu and Baolian Wang"
 status: "Working Paper"
 # paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5070808"
 takeaway: >
